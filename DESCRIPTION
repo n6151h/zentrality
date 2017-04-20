@@ -1,0 +1,11 @@
+Package: zentrality
+Title: Zentrality -- explorations in graph centrality metrics
+Version: 0.1
+Authors@R: person("Nick", "Seidenman", email = "nick@seidenman.net",
+                  role = c("aut", "cre"))
+Description: Uses iGraph package to create and plot graphs (edgelist or adjacency matrix)
+  and display centrality metrics (betweenness, degree, closness, eigenvalue) and
+  average path length.
+Depends: R (>= 3.1.0)
+License: MIT
+LazyData: true
